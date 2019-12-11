@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     
     
-    @IBOutlet weak var TextView1: UITextField!
+   
     
     //code starts here
     var numberOnScreen:Double = 0
@@ -39,8 +39,7 @@ class ViewController: UIViewController {
         }
         
         
-        label.text = label.text! + String(sender.tag-1)
-        numberOnScreen = Double(label.text!)!
+        
         
     }
     
